@@ -1,0 +1,24 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "create-block/frontend-quiz-master",
+  "version": "0.1.0",
+  "title": "Frontend Quiz Master Block",
+  "category": "widgets",
+  "description": "Display your site’s copyright date.",
+  "example": {},
+  "attributes": {},
+  "supports": {
+    "html": false,
+    "color": {
+      "background": false,
+      "text": true
+    },
+    "typography": {
+      "fontSize": true
+    }
+  },
+  "textdomain": "copyright-date-block",
+  "editorScript": "file:./index.js",
+  "render": "file:./render.php"
+}
