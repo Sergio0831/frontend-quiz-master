@@ -11,7 +11,7 @@ FrontEnd Quiz Master is a WordPress plugin that allows you to create quizzes wit
 
 ## Installation
 
-1. Download the plugin zip file from the [releases page](https://github.com/Sergio0831/frontend-quiz-master).
+1. Download the plugin zip file from the [repo page](https://github.com/Sergio0831/frontend-quiz-master).
 2. In your WordPress admin dashboard, go to `Plugins > Add New`.
 3. Click `Upload Plugin` and choose the downloaded zip file.
 4. Click `Install Now` and then `Activate`.
@@ -53,6 +53,9 @@ _Description of the screenshot._
 
    ```bash
    npm install
+   ```
+
+   ```bash
    yarn install
    ```
 
@@ -60,5 +63,8 @@ _Description of the screenshot._
 
    ```bash
    npm run build
+   ```
+
+   ```bash
    yarn build
    ```
