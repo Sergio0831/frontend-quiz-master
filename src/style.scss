@@ -1,0 +1,42 @@
+:root {
+	--border-color: #f1f1f1;
+	--bg-color: #dee2eb;
+	--accent-color: #db1919;
+	--accent-color-hover: rgb(184, 33, 33);
+}
+
+.wp-block-create-block-quiz-master {
+	padding: 20px;
+	border-radius: 2px;
+	border: 1px solid var(--border-color);
+	background-color: var(--bg-color);
+
+	.question-block {
+		label {
+			font-size: 14px;
+			text-transform: capitalize;
+			font-family: var(--wp--preset--font-family--body);
+		}
+	}
+
+	.dashicon {
+		color: #e29700;
+		position: relative;
+		top: -3px;
+		transition: transform 0.3s ease-out;
+
+		&:hover {
+			transform: scale(1.25) rotate(12deg);
+		}
+	}
+
+	.delete-btn {
+		--wp-components-color-accent: var(--accent-color);
+		position: relative;
+		top: -3px;
+
+		&:hover {
+			color: var(--accent-color-hover);
+		}
+	}
+}

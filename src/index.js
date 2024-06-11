@@ -1,10 +1,12 @@
-import { registerBlockType } from '@wordpress/blocks';
-import metadata from './block.json';
-import Edit from './Edit';
-import save from './save';
+import { registerBlockType } from "@wordpress/blocks";
+import metadata from "./block.json";
+import save from "./save";
+import Edit from "./edit";
+
+import "./style.scss";
 
 registerBlockType(metadata.name, {
-  icon: 'list-view',
-  edit: Edit,
-  save,
+	icon: "laptop",
+	edit: Edit,
+	save,
 });
